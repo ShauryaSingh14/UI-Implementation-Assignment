@@ -1,4 +1,4 @@
-### UI Description:
+###UI Description:
 The UI to be implemented resembles a table structure. Each row represents a state, with the first column dedicated to product filters and the subsequent columns representing design variants
 
 ### Key Features:
