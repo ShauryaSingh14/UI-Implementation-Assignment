@@ -33,7 +33,7 @@ const TableRow = React.memo(
           reader.readAsDataURL(file);
         }
       }, 300),
-      []
+      [] // Ensure no external dependencies are missing here
     );
 
     const handleFileChange = (event, stateId, variantId) => {
@@ -213,5 +213,8 @@ const TableRow = React.memo(
     );
   }
 );
+
+// Adding display name to the TableRow component
+TableRow.displayName = "TableRow";
 
 export default TableRow;
