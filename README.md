@@ -2,7 +2,7 @@
 The UI to be implemented resembles a table structure. Each row represents a state, with the first column dedicated to product filters and the subsequent columns representing design variants
 
 ### Website:
-https://submission-by-shaury.netlify.app/ ;
+https://submission-by-shaury.netlify.app/ 
 
 ### Key Features:
 1. Add/Delete a State:
