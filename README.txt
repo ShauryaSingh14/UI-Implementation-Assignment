@@ -1,30 +1,34 @@
+### UI Description:
+The UI to be implemented resembles a table structure. Each row represents a state, with the first column dedicated to product filters and the subsequent columns representing design variants
 
-Project Name: RetainIQ Next.js Assignment
+### Key Features:
+1. Add/Delete a State:
+Implement functionality to dynamically add and remove states (rows) in the table.
 
-Project Overview:
-This project involves creating a user interface (UI) using React (with Next.js), based on a video demonstration. The UI includes a table structure with dynamic rows and columns, representing different states and design variants. Key functionalities include:
+2. Add/Delete Variant Columns:
+Implement functionality to dynamically add and remove variant columns in the table.
 
-- Adding/Deleting states and variant columns.
-- Reordering rows via drag-and-drop.
-- Conditional scrolling for tables with more than 4 variants.
+3. Row Reordering:
+Allow users to reorder the state rows using drag-and-drop functionality.
 
-Key Features:
-- Dynamic Rows and Columns: Add or remove table rows and columns dynamically.
-- Drag-and-Drop: Rows can be reordered using a drag-and-drop interface.
-- Conditional Scrolling: Automatic scrolling when there are more than 4 columns.
-- Clean Code: The project follows clean and well-documented coding practices.
+4. Design Insertion (Optional):
+Allow users to insert a design into a specific variant column.
 
-Tech Stack:
+5. Eye for perfection : If the number of variants added become more than 4 then it should have a scroll as shown in the video, Thinking out of the box is also welcome 
+
+
+
+### Tech Stack:
 - Next.js: A React framework for building the UI and handling server-side rendering.
 - React DnD: For implementing drag-and-drop functionality.
 - CSS Library: Any CSS framework can be used to style the UI, offering flexibility.
 
-Project Setup:
+### Project Setup:
 
 1. Clone the Repository:
 ```bash
 git clone <repository-url>
-cd RetainIQ-assignment
+cd Frontend-Developer-Assignment
 ```
 
 2. Install Dependencies:
@@ -46,11 +50,7 @@ To build the project for production:
 npm run build
 ```
 
-Folder Structure:
+### Folder Structure:
 - `pages/`: Contains the Next.js pages.
 - `components/`: Reusable UI components used across different pages.
 - `styles/`: CSS or SCSS styles for the project.
-
-Future Enhancements:
-- Additional table features.
-- Improved row and column reordering.
